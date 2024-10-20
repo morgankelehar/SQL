@@ -1,6 +1,6 @@
-# Airline Information
+# Airline
 
-During my Database Management Systems Concepts and Design course at Missouri State, we used Oracle SQL to create our own database. 
+During my Database Management Systems Concepts and Design course at Missouri State, we used Oracle SQL to create our own database. This project was divided into three sections, ERD diagrams, tables, and queries. Each section had a list of requirements that were necessary as well as an explanation. Additional discriptions are provided throughout the document showcasing this information.
 
 ## Background information:
 This database tracks specific flight information. It starts out with a ticket that will keep track of the customer, flight number, departure airport, and the arrival airport. 
@@ -9,17 +9,22 @@ keep track of the different elements that go into a flight and ensure consistenc
 expanded upon to add entities for the company, specific planes, seat numbers, and more.
 
 ## ERD Diagrams
+I used LucidChart to create three ERD diagrams to help with the creation of my 'Airlines' database. 
 
 ### ERD Level 0:
+I started with an ERD level 0 diagram to show the main tables and their relationships to one another with the data used. I ended up with five tables in my database; customer, ticket, airport, flight, and employees.
 ![erd0](https://github.com/user-attachments/assets/5f47caf6-87bf-46f2-8e11-660d65597458)
 
 ### ERD Level 1:
+For the level 1 ERD diagram, I expanded upon the level 0 by adding the columns that would be represented in each table. The level 1 diagram further establishes the relationships between the tables with the introduction of the primary and foreign keys and how they connect tables together. There is also an introduction to the 'Employee Details' table which serves as a connector to the flight and employee tables due to there fact that each employee has many flights.
 ![erd1](https://github.com/user-attachments/assets/3896ab7f-4c96-4be4-b15f-fcc6d1000fef)
 
 ### ERD Level 2:
+The ERD level 2 diagram is very similar to the level 1 except it adds in the data type for each column.
 ![erd2](https://github.com/user-attachments/assets/76f277fe-d74c-41c9-a111-b5c0a140e99e)
 
 ## Tables
+For the tables section of the project, I used information created in the ERD diagrams to create these tables. Each table was created with a primary key and each column had a corresponding datatype. Once the table was created, I inserted 10 rows of data for each table, making sure that the datatypes were followed as stated in the ERD diagrams. For each table I have attatched an image of the code to create the table and the corresponding description, the code to insert a row of data (one out of the ten was selected), and an image showing all of the rows of data in the table.
 
 ### Customers Table:
 <img width="376" alt="customers1" src="https://github.com/user-attachments/assets/e827f099-9a26-4bd5-aa61-484d8a243263">
