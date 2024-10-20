@@ -9,3 +9,12 @@ keep track of the different elements that go into a flight and ensure consistenc
 expanded upon to add entities for the company, specific planes, seat numbers, and more.
 
 ## ERD Level 0:
+![erd level 0]("C:\Users\morga\OneDrive\Documents\Desktop\erd0.png")
+
+## ERD Level 1:
+![erd level 1]("C:\Users\morga\OneDrive\Documents\Desktop\erd1.png")
+
+## ERD Level 2:
+![erd level 2]("C:\Users\morga\OneDrive\Documents\Desktop\erd2.png")
+
+## Customers Table:
