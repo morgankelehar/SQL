@@ -1,4 +1,4 @@
-# Airline
+# Airline Database
 
 During my Database Management Systems Concepts and Design course at Missouri State, we used Oracle SQL to create our own database. This project was divided into three sections, ERD diagrams, tables, and queries. Each section had a list of requirements that were necessary as well as an explanation. Additional discriptions are provided throughout the document showcasing this information.
 
